@@ -5,7 +5,7 @@ from sklearn.decomposition import PCA
 import numpy as np
 import matplotlib.pyplot as plt
 
-#st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.sidebar.markdown("<a href='#rotation-formula'>Rotation Matrix Exercise</a>", unsafe_allow_html=True)
 st.sidebar.markdown("<a href='#bmi-exercise'>BMI Exercise</a>", unsafe_allow_html=True)
